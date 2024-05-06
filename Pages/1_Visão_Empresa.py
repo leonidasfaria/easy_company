@@ -106,7 +106,7 @@ def delivery_week (df2):
 #                                         ESTRUTURA DO CÓDIGO
 #=============================================================================================================
 # Acessando a planilha de dados (direto na máquina):
-planilha = pd.read_csv('Train.csv')
+planilha = pd.read_csv('dataset/train.csv')
 df = clean_code(planilha.copy())
 
 #-------------------------------------------------------------------------------------------------------------
