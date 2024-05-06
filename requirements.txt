@@ -8,3 +8,5 @@ matplotilb-inline==0.1.6
 haversine==2.8.1
 streamlit-folium==0.18.0
 pillow==10.2.0
+plotly==5.19.0
+plotly-express==0.4.1
