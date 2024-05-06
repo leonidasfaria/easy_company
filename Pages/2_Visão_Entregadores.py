@@ -89,7 +89,7 @@ def top_deliver(df, top_asc):
 #                                         ESTRUTURA DO CÓDIGO
 #=============================================================================================================
 # Acessando a planilha de dados (direto na máquina):
-planilha = pd.read_csv('Train.csv')
+planilha = pd.read_csv('dataset/train.csv')
 df = clean_code(planilha.copy())
 
 #=============================================================================================================
